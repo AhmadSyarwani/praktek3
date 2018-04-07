@@ -1,7 +1,7 @@
 package praktek3;
 public class computer {
-        String merek,os,warna;
-        double harga;
+        private String merek,os,warna;
+        private double harga;
         
         void cetakInfo(){
             System.out.println("merek komputer /t="+merek);
